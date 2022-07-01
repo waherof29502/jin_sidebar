@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
+  enabled: true,
   mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'class', // or 'media' or 'class'
@@ -20,6 +21,9 @@ module.exports = {
           200: '#ebedef',
           100: '#f2f3f5',
         },
+      },
+      spacing: {
+        88: '22rem',
       },
     },
   },
