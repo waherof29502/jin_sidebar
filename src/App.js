@@ -1,5 +1,10 @@
 import React from 'react';
-import { SideBar, ChannelBar, ContentContainer } from './components';
+import {
+  SideBar,
+  ChannelBar,
+  ContentContainer,
+  TopNavigation,
+} from './components';
 
 function App() {
   return (
